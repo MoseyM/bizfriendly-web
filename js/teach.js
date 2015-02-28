@@ -45,6 +45,8 @@ var teach = (function (teach) {
     // Controls
     $(".back").click(_backStep);
     $('.next').click(_nextStep);
+    // This is where the new control to save each page would potentially go. Can reuse code that saves whole lesson.
+    
     $('#add-new-step').click(_addNewStep);
     $("#step-close-btn").click(_removeStep);
     $("#preview").click(_previewClicked);
